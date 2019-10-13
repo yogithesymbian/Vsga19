@@ -10,5 +10,6 @@
     <string name="activity_puzle_f">F</string>
     <string name="activity_puzle_g">G</string>
     <string name="activity_puzle_h">H</string>
+    <string name="activity_main_move_to_puzzle">MOVE to Puzzle</string>
 
 </resources>

@@ -19,7 +19,7 @@
             android:layout_marginRight="8dp"
             android:layout_marginBottom="8dp"
 
-            android:text="MOVE to Puzzle"
+            android:text="@string/activity_main_move_to_puzzle"
 
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
