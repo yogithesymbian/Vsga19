@@ -11,18 +11,18 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
             tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".SplashActivity">
-
+        <activity android:name=".ui.init.ViewPagerActivity"></activity>
+        <activity android:name=".ui.init.SplashActivity">
             <intent-filter>
-<!--                set act for launcher -->
+
+                <!-- set act for launcher -->
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-        <activity android:name=".PuzzleActivity" />
-        <activity android:name=".MainActivity">
-        </activity>
+        <activity android:name=".ui.PuzzleActivity" />
+        <activity android:name=".ui.home.MainActivity"></activity>
     </application>
 
 </manifest>

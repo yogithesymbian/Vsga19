@@ -1,10 +1,13 @@
-package com.scodeid.vsga19;
+package com.scodeid.vsga19.ui.home;
 
 import android.content.Intent;
 import android.view.View;
 import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.scodeid.vsga19.ui.PuzzleActivity;
+import com.scodeid.vsga19.R;
 
 public class MainActivity extends AppCompatActivity {
     // declares variable ke view layout
@@ -25,5 +28,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        finishAffinity();
     }
 }
