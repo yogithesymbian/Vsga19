@@ -37,7 +37,7 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void run() {
                 // intent activity | move activity
-                startActivity(new Intent(SplashActivity.this, MainActivity.class));
+                startActivity(new Intent(SplashActivity.this, ViewPagerActivity.class));
                 this.finish();
             }
             // anonymous function
