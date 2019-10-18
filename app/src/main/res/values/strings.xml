@@ -11,5 +11,6 @@
     <string name="activity_puzle_g">G</string>
     <string name="activity_puzle_h">H</string>
     <string name="activity_main_move_to_puzzle">MOVE to Puzzle</string>
+    <string name="activitiy_splash_splash_screen">Splash Screen</string>
 
 </resources>
